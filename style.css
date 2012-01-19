@@ -1,0 +1,51 @@
+body {
+	background :#e5edf4;
+}
+
+#container {
+	width:800px; /* 840 px */
+	height:600px; /* 640 px */
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-320px;
+	margin-left:-420px;
+	border:1px solid #CCC;
+	padding:20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Geo', arial, serif;
+}
+
+#game {
+	position:absolute;
+	width:400px;
+	height:600px;
+	top:50%;
+	left:50%;
+	margin-top:-300px;
+	margin-left:-200px;
+}
+
+#canvas {
+	position:absolute;
+	top:0;
+	left:0;
+	border:5px solid #3d6993;
+	border-radius:10px;
+	background:#FFF;
+}
+
+.board {
+	position:absolute;
+	top:0;
+	left:0;
+	border:5px solid #3d6993;
+	border-radius:10px;
+}
+
+#buttons {
+	display:none;
+}
+
